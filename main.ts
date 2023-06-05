@@ -159,7 +159,7 @@ let mySprite = sprites.create(img`
     `, SpriteKind.Player)
 mySprite.setPosition(4, 50)
 forever(function () {
-    Render.getRenderSpriteInstance().vy = Render.getAttribute(Render.attribute.dirY) * 25
+    Render.getRenderSpriteInstance().vy = Render.getAttribute(Render.attribute.dirY) * 50
 })
 forever(function () {
     pause(2000)
